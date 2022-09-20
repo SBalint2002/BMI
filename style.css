@@ -1,5 +1,6 @@
 .narancs {
     background-color: orange;
+    color: white;
 }
 
 #szamitas{
@@ -20,4 +21,5 @@ th {
 .center{
     margin-left: auto;
     margin-right: auto;
+    width: 80%;
 }

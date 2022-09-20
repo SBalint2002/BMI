@@ -1,4 +1,4 @@
-# [Név]
+# Sárándi Bálint
 
 ## Hogyan kezdj neki?
 

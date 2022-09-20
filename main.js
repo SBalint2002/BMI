@@ -37,9 +37,9 @@ function gombKatt(){
         element.classList.add("narancs");
     }
 
-    let also = (18.5*(magassag/100)**2).toFixed(1);
-    let felso = (24.9*((magassag/100)**2)).toFixed(1);
-    var atlag = ((also + felso)/2);
+    let also = parseFloat((18.5*(magassag/100)**2).toFixed(1));
+    let felso = parseFloat((24.9*((magassag/100)**2)).toFixed(1));
+    let atlag = parseFloat(((also + felso)/2));
     document.getElementById("idealis").innerHTML = "<b>AZ IDEÁLIS TESTTÖMEGE: </b>" + atlag + " kg";
     document.getElementById("szelso").innerHTML = also + " - " + felso + " kg";
 }

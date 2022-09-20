@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BMI calculator</title>
     <link rel="stylesheet" href="style.css">
     <script src="main.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -32,65 +32,41 @@
         <section>
             <h3>AZ ÖN BMI ÉRTÉKE: </h3><label id="bmiertek"></label>
             <section>
-                <table>
-                    <th>
-                        <tr>
-                            <b>18,5 vagy kevesebb</b>
-                        </tr>
-                        <tr>
-                            SOVÁNY
-                        </tr>
-                        <hr>
-                    </th>
-                    <th>
-                        <tr>
-                            <b>18,5 - 24,9</b>
-                        </tr>
-                        <tr>
-                            NORMÁL
-                        </tr>
-                        <hr>
-                    </th>
-                    <th>
-                        <tr>
-                            <b>25 - 29,9</b>
-                        </tr>
-                        <tr>
-                            TÚLSÚLY
-                        </tr>
-                        <hr>
-                    </th>
-                    <th class="narancs">
-                        <tr>
-                            <b>30 - 34,9</b>
-                        </tr>
-                        <tr>
-                            I. FOKÚ ELHÍZÁS
-                        </tr>
-                        <hr>
-                    </th>
-                    <th>
-                        <tr>
-                            <b>35 - 39,9</b>
-                        </tr>
-                        <tr>
-                            II. FOKÚ ELHÍZÁS
-                        </tr>
-                        <hr>
-                    </th>
-                    <th>
-                        <tr>
-                            <b>40 vagy több</b>
-                        </tr>
-                        <tr>
-                            III. FOKÚ ELHÍZÁS
-                        </tr>
-                    </th>
+                <table class="table center">
+                    <tr id="sovany">
+                        <th class="col-sm-4 col-xl-4">18,5 vagy kevesebb</th>
+                        <td>Sovány</td>
+                    </tr>
+                    <tr id="normal">
+                        <th class="col-sm-4 col-xl-4">18,5 - 24,9</th>
+                        <td>Normál</td>
+                    </tr>
+                    <tr id="tulsuly">
+                        <th class="col-sm-4 col-xl-4">25 - 29,9</th>
+                        <td>Túlsúly</td>
+                    </tr>
+                    <tr id="elsofok">
+                        <th class="col-sm-4 col-xl-4">30 - 34,9</th>
+                        <td>I. fokú elhízás</td>
+                    </tr>
+                    <tr id="masodikfok">
+                        <th class="col-sm-4 col-xl-4">35 - 39,9</th>
+                        <td>II. fokú elhízás</td>
+                    </tr>
+                    <tr id="harmadfoku">
+                        <th class="col-sm-4 col-xl-4">40 vagy több</th>
+                        <td>III. fokú elhízás</td>
+                    </tr>
                 </table>
             </section>
             <section>
                 <h3>AZ IDEÁLIS TESTTÖMEGE: </h3><label id="bmiertek"></label>
-                <section></section>
+                <table class="table center">
+                    <tr>
+                        <th class="col-sm-4 col-xl-4"><span></span></th>
+                        <td>Kívánatos szélső értékek</td>
+                    </tr>
+                </table>
             </section>
         </section>
     </div>

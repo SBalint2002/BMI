@@ -1,12 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </head>
 <body>
-    WORKING....
+    <div class="container" id="mainconatiner">
+        <section class="narancs row">
+            <div class="col-md-8 col-lg-8 col-xl-8">
+                <br>
+                <p>Írja be cm-ben számított testmagasságát (cipő nélkül mérve):</p>
+                <p>Írja be kg-ban számított testsúlyát (cipő nélkül mérve):</p>
+            </div>
+            <div class="col-md-4 col-lg-4 col-xl-4">
+                <br>
+                <input type="number" id="magassag" value="0" class="mezo"> cm <br><br>
+                <input type="number" id="suly" value="0" class="mezo"> kg
+            </div>
+            <div>
+                <button id="szamitas">Számítás</button>
+            </div>
+        </section>
+        <section>
+            <h3>AZ ÖN BMI ÉRTÉKE: </h3><label id="bmiertek"></label>
+            <section>
+                <table>
+                    <th>
+                        <tr>
+                            <b>18,5 vagy kevesebb</b>
+                        </tr>
+                        <tr>
+                            SOVÁNY
+                        </tr>
+                        <hr>
+                    </th>
+                    <th>
+                        <tr>
+                            <b>18,5 - 24,9</b>
+                        </tr>
+                        <tr>
+                            NORMÁL
+                        </tr>
+                        <hr>
+                    </th>
+                    <th>
+                        <tr>
+                            <b>25 - 29,9</b>
+                        </tr>
+                        <tr>
+                            TÚLSÚLY
+                        </tr>
+                        <hr>
+                    </th>
+                    <th class="narancs">
+                        <tr>
+                            <b>30 - 34,9</b>
+                        </tr>
+                        <tr>
+                            I. FOKÚ ELHÍZÁS
+                        </tr>
+                        <hr>
+                    </th>
+                    <th>
+                        <tr>
+                            <b>35 - 39,9</b>
+                        </tr>
+                        <tr>
+                            II. FOKÚ ELHÍZÁS
+                        </tr>
+                        <hr>
+                    </th>
+                    <th>
+                        <tr>
+                            <b>40 vagy több</b>
+                        </tr>
+                        <tr>
+                            III. FOKÚ ELHÍZÁS
+                        </tr>
+                    </th>
+                </table>
+            </section>
+            <section>
+                <h3>AZ IDEÁLIS TESTTÖMEGE: </h3><label id="bmiertek"></label>
+                <section></section>
+            </section>
+        </section>
+    </div>
 </body>
 </html>

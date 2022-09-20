@@ -1,0 +1,23 @@
+{
+  "name": "bmi",
+  "version": "1.0.0",
+  "description": "1. Jelentkezz be a GitHub szolgáltatásába a böngésződben és a VSCode szerkesztőben\r 2. A böngészőben forkold ezt a repository-t\r 3. A Settings > Pages oldalon a Source értékét állítsd gh-pages-re és mentsd el (Save)\r 4. Clone-ozd a saját(!) repodat a VSCode-ba\r 5. Írd át a Readme.md elején a [Név] részt a saját nevedre, majd commitolj és pusholj.\r 6. Az index.html fájlba készítsd el a munkádat! Az index.html fájlt tetszőlegesen átírhatod.",
+  "main": "main.js",
+  "type": "module"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SBalint2002/BMI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SBalint2002/BMI/issues"
+  },
+  "homepage": "https://github.com/SBalint2002/BMI#readme",
+  "dependencies": {
+    "webpack": "^5.74.0"
+  }
+}
